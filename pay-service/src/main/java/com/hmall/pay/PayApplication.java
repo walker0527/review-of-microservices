@@ -1,0 +1,20 @@
+package com.hmall.pay;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
+
+/**
+ * @Auther: 17746
+ * @Date: 2026/8/25-08-25-下午3:51
+ * @Description：
+ */
+@MapperScan("com.hmall.pay.mapper")
+@SpringBootApplication
+@EnableFeignClients(basePackages = "com.hmall.api.client")
+public class PayApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(PayApplication.class, args);
+    }
+}
