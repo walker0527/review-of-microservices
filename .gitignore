@@ -1,5 +1,4 @@
-# 忽略所有target目录
-target/
-/logs/
-#忽略所有.idea目录
-.idea/
+# 忽略所有层级的 target、logs、.idea 目录
+**/target/
+**/logs/
+**/.idea/
