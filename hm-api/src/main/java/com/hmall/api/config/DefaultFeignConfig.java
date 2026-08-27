@@ -23,7 +23,7 @@ public class DefaultFeignConfig {
                     return;
                 }
                 // 如果不为空则放入请求头中，传递给下游微服务
-                template.header("user-info", userId.toString());
+                template.header("userInfo", userId.toString());
             }
         };
     }
