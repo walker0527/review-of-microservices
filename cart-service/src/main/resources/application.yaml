@@ -1,8 +1,6 @@
 server:
   port: 8082
 feign:
-  sentinel:
-    enabled: true # 开启feign对sentinel的支持
   okhttp:
     enabled: true # 开启OKHttp连接池支持
 hm:
@@ -11,9 +9,3 @@ hm:
     package: com.hmall.cart.controller
   db:
     database: hm-cart
-spring:
-  cloud:
-    sentinel:
-      transport:
-        dashboard: localhost:8090
-      http-method-specify: true # 开启请求方式前缀
