@@ -7,9 +7,9 @@
           <value>
             <TabSessionState>
               <option name="provider" value="claude" />
-              <option name="sessionId" value="317e2459-42f2-48a6-a0c4-7fe02e47c6ea" />
+              <option name="sessionId" value="ebdcb712-fa6f-4541-be3c-9e705140c2e2" />
               <option name="cwd" value="D:\code\heimamarket\hmall" />
-              <option name="model" value="claude-sonnet-4-6[1m]" />
+              <option name="model" value="claude-opus-5[1m]" />
               <option name="permissionMode" value="default" />
             </TabSessionState>
           </value>
