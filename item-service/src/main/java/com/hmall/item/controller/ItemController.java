@@ -81,4 +81,11 @@ public class ItemController {
     public void deductStock(@RequestBody List<OrderDetailDTO> items){
         itemService.deductStock(items);
     }
+
+    @ApiOperation("根据id恢复商品库存")
+    @PutMapping("/stock/recover/{id}/{num}")
+    public void recoverStockById(@PathVariable("id") Long id, @PathVariable("num") Integer num){
+        itemService.recoverStock(id, num);
+    }
+
 }
